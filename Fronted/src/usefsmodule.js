@@ -15,7 +15,7 @@ const server=http.createServer((req,res)=>{
    else if(req.url=="/data" && req.method=="GET"){
      res.setHeader('Content-Type',"application/json")
     //  const data={
-    //     name:"Rahul",
+    //     name:"Ravi",
     //     branch:"IT",
     //     college:"ABES"
     //  }
